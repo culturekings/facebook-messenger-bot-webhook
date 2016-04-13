@@ -8,3 +8,5 @@ This project is written in Node.js and Express to stay in line with the official
 It has a default Verify Token of `TEST` however this can be changed be setting an environmental variable in heroku of `VERIFY_TOKEN`
 
 To see full instructions on how to enable in Facebook. [Follow the official guide](https://developers.facebook.com/docs/messenger-platform/quickstart)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
