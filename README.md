@@ -1,7 +1,7 @@
-# Facebook Messenger Bot Webhook Listener
-Application to handle the autentication request sent via facebook for new messenger bots.
+# Facebook Messenger Bot Skeleton
+Skeleten Application to handle the authentication and webhook requests sent via facebook for new messenger bots.
 
-This project is developed to work with Heroku with no coding changes required.
+This project is developed to work with Heroku with no coding changes required. Obviously the Bot won't do anything unless you add some of your own logic.
 
 This project is written in Node.js and Express to stay in line with the official Facebook docs and make it easier to use their provided examples.
 
