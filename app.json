@@ -8,6 +8,10 @@
         "VERIFY_TOKEN": {
             "description": "A secret key needed to check calls from Facebook.",
             "value": "TEST"
+        },
+        "PAGE_ACCESS_TOKEN": {
+            "description": "The Page Token provided by Facebook under Get Page Access Token section",
+            "value": "NULL"
         }
     }
 }
