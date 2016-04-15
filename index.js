@@ -1,5 +1,9 @@
 var express = require('express');
 var app = express();
+var bodyParser = require('body-parser');
+var request = require('request');
+
+app.use(bodyParser.json());
 
 app.set('port', (process.env.PORT || 5000));
 app.set('verify_token', (process.env.VERIFY_TOKEN || 'TEST'));
@@ -18,6 +22,7 @@ app.get('/webhook', function (req, res) {
 });
 
 app.post('/webhook/', function (req, res) {
+    console.log (req.body);
     messaging_events = req.body.entry[0].messaging;
     for (i = 0; i < messaging_events.length; i++) {
         event = req.body.entry[0].messaging[i];
