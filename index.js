@@ -1,5 +1,8 @@
 var express = require('express');
 var app = express();
+var bodyParser = require('body-parser')
+
+app.use(bodyParser.json());
 
 app.set('port', (process.env.PORT || 5000));
 app.set('verify_token', (process.env.VERIFY_TOKEN || 'TEST'));
